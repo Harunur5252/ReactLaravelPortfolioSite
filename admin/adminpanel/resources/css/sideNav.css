@@ -1,0 +1,64 @@
+.sidenavClose {
+    height: 100%;
+    width: 4%;
+    position: fixed;
+    z-index: 10;
+    top: 0;
+    left: 0;
+    background-color: #141518;
+    overflow-x: hidden;
+    transition: 0.1s;
+    padding-top: 80px;
+}
+
+
+.sidenavOpen {
+    height: 100%;
+    width: 15%;
+    position: fixed;
+    z-index: 10;
+    top: 0;
+    left: 0;
+    background-color: #141518;
+    overflow-x: hidden;
+    transition: 0.1s;
+    padding-top: 80px;
+}
+
+.main-overlay-open{
+    display: block;
+    position: fixed;
+    height: 100%;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    z-index: 8;
+    background-color: rgba(0,0,0,0.5);
+    cursor: pointer;
+}
+.main-overlay-close{
+    z-index: 8;
+    display: none;
+}
+.NavItem{
+    color:white !important;
+}
+.NavItem:hover{
+   color:#61DAFB !important;
+}
+.mydiv{
+    width: 96% ;
+    margin-top: 7%;
+    float: right;
+}
+.mydiv2{
+    width: 84%;
+    float: right;
+    margin-top: 7%;
+}
+.pageDecorationLink{
+    text-decoration: none !important;
+}
+
+
